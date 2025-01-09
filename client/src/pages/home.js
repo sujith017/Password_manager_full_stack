@@ -37,6 +37,7 @@ const Home = () => {
       Password: password,
       classAdd: classValue,
     }
+
     setLatestList(prevList => [...prevList, newValues])
     setWebsite('')
     setUsername('')
