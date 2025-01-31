@@ -14,4 +14,5 @@ const schema = new Mongoose.Schema({
     required: true,
   },
 });
-export const passwordModel = Mongoose.model("password", schema);
+const passwordModel = Mongoose.model("password", schema);
+export default passwordModel;
